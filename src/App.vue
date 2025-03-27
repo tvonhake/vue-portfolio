@@ -1,47 +1,19 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Home from './components/Home.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+  <div
+    class="font-inter min-h-screen bg-[#373B41] text-[#FDF1DD] flex flex-col justify-between p-4 md:p-10 lg:p-20"
+  >
+    <!-- Header -->
+    <div class="flex justify-between items-start fixed top-0 left-0 p-6">
+      <button
+        class="bg-[#FDF1DD] text-[#373B41] px-6 py-4 md:px-8 md:py-6 lg:px-10 lg:py-8 rounded-[25px] text-sm md:text-base lg:text-lg"
+      >
+        HOME
+      </button>
     </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+    <Home />
+  </div>
 </template>
-
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>

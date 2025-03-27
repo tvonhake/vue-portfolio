@@ -23,7 +23,7 @@ defineOptions({
       <div class="text-left w-full md:w-3/7 space-y-4 md:space-y-6">
         <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold">Full Stack Software Engineer</h2>
         <p class="text-sm md:text-base lg:text-xl mt-2">
-          I specialize in Ruby, React, and Relational Databases.<br />
+          I specialize in Ruby, React, and cloud infrastructure.<br />
           Let's build something great together.
         </p>
       </div>
